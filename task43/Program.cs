@@ -1,4 +1,5 @@
-﻿double CoordinateX (double num1, double num2, double num3, double num4) 
+﻿// Написать программу, которая найдет точку пересечения двух прямых
+double CoordinateX (double num1, double num2, double num3, double num4) 
 // где num1 = k1, num2 = b1, num3 = k2, num4 = b2
 {
     // y = k1x + b1, y = k2x + b2
