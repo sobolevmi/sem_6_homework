@@ -1,4 +1,5 @@
-﻿int [] CreateArray (int N)
+﻿// Вывести первые N чисел Фибоначчи
+int [] CreateArray (int N)
 {
     int [] massive = new int [N];
     massive [0] = 0;
