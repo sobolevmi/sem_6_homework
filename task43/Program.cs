@@ -25,6 +25,17 @@ double k2 = Convert.ToDouble (Console.ReadLine ());
 Console.Write ("Введите значение точки b2: ");
 double b2 = Convert.ToDouble (Console.ReadLine ());
 
+if ((k1 == k2) & (b1 != b2))
+{
+    Console.WriteLine ("Прямые параллельны и не имеют точек пересечения");
+} // поскольку угловой коэффициент k совпадает, прямые являются параллельными
+else if ((k1 == k2) & (b1 == b2))
+{
+    Console.WriteLine ("Прямые совпадают и имеют бесконечное множество пересечений");
+} // прямые имеют одинаковые уравнения, как следствие - они совпадают
+else
+{
 double x = CoordinateX (k1, b1, k2, b2);
 double y = CoordinateY (k2, b2, x);
 Console.Write ($"b1 = {b1}, k1 = {k1}, b2 = {b2}, k2 = {k2} -> ({x}; {y})");
+}
