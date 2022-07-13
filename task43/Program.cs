@@ -27,4 +27,4 @@ double b2 = Convert.ToDouble (Console.ReadLine ());
 
 double x = CoordinateX (k1, b1, k2, b2);
 double y = CoordinateY (k2, b2, x);
-Console.Write ($"b1 = {b1}, k1 = {k1}, b2 = {b2}, k2 = {k2} -> ({x};{y})");
+Console.Write ($"b1 = {b1}, k1 = {k1}, b2 = {b2}, k2 = {k2} -> ({x}; {y})");
