@@ -1,4 +1,5 @@
-﻿int [] CreateNewArray (int N)
+﻿// Пользователь вводит с клавиатуры М чисел. Посчитать, сколько чисел больше 0 ввел пользователь
+int [] CreateNewArray (int N)
 {
     int [] massive = new int [N];
     return massive;
